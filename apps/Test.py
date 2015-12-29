@@ -10,7 +10,7 @@ SERVER = 'http://scit-i-ec76021a:8080/'
 
 class JenkinsStuff:
     def Jenkins(self):
-    	url = "http://slc3win72:8080/api/json?pretty=true"
+    	url = ""
         response = requests.get(url)
         stuff = response.json()['jobs']
         # sort the array by the color tag (alphabetically)
